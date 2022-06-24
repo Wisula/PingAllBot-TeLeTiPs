@@ -234,13 +234,13 @@ async def bots(client, message):
 async def start(client, message):
   text = f'''
 Heya {message.from_user.mention},
-My name is **PingAll**. I'm here to help you to get everyone's attention by mentioning all members in your chat.
+My name is **Epic | PingAll**. I'm here to help you to get everyone's attention by mentioning all members in your chat 🔔
 
-I have some additional cool features and also I can work in channels.
+I have some additional cool features and also I can work in channels 😸
 
-Don't forget to join my [channel](http://t.me/teletipsofficialchannel) to recieve information on all the latest updates.
+Don't forget to join my [channel](http://t.me/epicBotsSl) to recieve information on all the latest updates 🤖
 
-Hit /help to find out my commands and the use of them.
+Hit /help to find out my commands and the use of them 🙄
 '''
   await teletips.send_message(message.chat.id, text, disable_web_page_preview=True)
 
@@ -248,7 +248,7 @@ Hit /help to find out my commands and the use of them.
 @teletips.on_message(filters.command("help"))
 async def help(client, message):
   text = '''
-Hey, let's have a quick look at my commands.
+Hey, let's have a quick look at my commands ✍️
 
 **Commands**:
 - /ping "input": <i>Mention all members.</i>
@@ -257,7 +257,7 @@ Hey, let's have a quick look at my commands.
 - /bots: <i>Get the full bot list.</i>
 - /stop: <i>Stop an on going process.</i>
 
-If you have any questions on how to use me, feel free to ask in my [support group](https://t.me/teletipsofficialontopicchat). More on my [page](https://github.com/teletips/PingAllBot-TeLeTiPs).
+If you have any questions on how to use me, feel free to ask in my [support group](https://t.me/EpicChats). My owner is [Methindu Wisula](https://t.me/wisula4).
 '''
   await teletips.send_message(message.chat.id, text, disable_web_page_preview=True)
 
